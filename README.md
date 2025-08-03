@@ -5,7 +5,7 @@ El objetivo es construir una API REST que permita predecir la próxima orden por
 
 ---
 
-## 🚀 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **.NET 7 / .NET 6** – Web API
 - **Entity Framework Core** – Acceso a base de datos
@@ -16,7 +16,7 @@ El objetivo es construir una API REST que permita predecir la próxima orden por
 
 ---
 
-## 📦 Estructura del backend
+## Estructura del backend
 
 SalesPrediction.Api/
 ├── Controllers/ # Endpoints HTTP
@@ -30,7 +30,7 @@ SalesPrediction.Api/
 
 ---
 
-## ✅ Funcionalidades implementadas
+## Funcionalidades implementadas
 
 | Endpoint                          | Descripción                                      | Estado |
 |----------------------------------|--------------------------------------------------|--------|
@@ -43,7 +43,7 @@ SalesPrediction.Api/
 
 ---
 
-## ⚙️ Configuración del entorno
+## Configuración del entorno
 
 ### 1. Requisitos
 
@@ -65,16 +65,16 @@ cd sales-prediction-api
   "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=StoreSample;Trusted_Connection=True;"
 }
 
-### Ejecución del proyecto
+## Ejecución del proyecto
 
 dotnet build
 dotnet run
 
-### Revisión del Backend
+## Revisión del Backend
 
 https://localhost:{puerto}/swagger
 
-Autor
+## Autor
 Desarrollado por: Johan Martínez
 Prueba técnica – Sales Date Prediction API – 2025
 
