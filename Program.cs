@@ -21,6 +21,7 @@ Console.WriteLine("Cadena de conexión: " + connectionString);
 builder.Services.AddScoped<IPredictionService, PredictionService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+builder.Services.AddScoped<IShipperService, ShipperService>();
 
 var app = builder.Build();
 
