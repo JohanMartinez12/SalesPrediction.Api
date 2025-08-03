@@ -36,7 +36,7 @@ SalesPrediction.Api/
 |----------------------------------|--------------------------------------------------|--------|
 | `GET /api/prediction`            | Predicción de próxima orden por cliente         | ✅     |
 | `GET /api/orders/client/{id}`    | Listar órdenes por cliente                      | ✅     |
-| `GET /api/employees`             | Listar empleados                                | 🔜     |
+| `GET /api/employees`             | Listar empleados                                | ✅     |
 | `GET /api/shippers`              | Listar transportistas                           | 🔜     |
 | `GET /api/products`              | Listar productos                                | 🔜     |
 | `POST /api/orders`               | Crear nueva orden con detalle de producto       | 🔜     |
