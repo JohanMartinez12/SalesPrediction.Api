@@ -20,6 +20,7 @@ Console.WriteLine("Cadena de conexión: " + connectionString);
 // Inyección de dependencias
 builder.Services.AddScoped<IPredictionService, PredictionService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 
 var app = builder.Build();
 
