@@ -25,6 +25,7 @@ namespace SalesPrediction.Api.Data
         public DbSet<ClientOrderDTO> ClientOrderDtos { get; set; }
         public DbSet<EmployeeDTO> EmployeeDtos { get; set; }
         public DbSet<ShipperDTO> ShipperDtos { get; set; }
+        public DbSet<ProductDTO> ProductDtos { get; set; }
 
 
 
@@ -36,6 +37,7 @@ namespace SalesPrediction.Api.Data
             modelBuilder.Entity<ClientOrderDTO>().HasNoKey(); // Es una consulta, no tabla
             modelBuilder.Entity<EmployeeDTO>().HasNoKey(); // Es una consulta, no tabla
             modelBuilder.Entity<ShipperDTO>().HasNoKey(); // Es una consulta, no tabla
+            modelBuilder.Entity<ProductDTO>().HasNoKey(); // Es una consulta, no tabla
         }
 
     }
