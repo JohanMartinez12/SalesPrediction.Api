@@ -38,7 +38,7 @@ SalesPrediction.Api/
 | `GET /api/orders/client/{id}`    | Listar órdenes por cliente                      | ✅     |
 | `GET /api/employees`             | Listar empleados                                | ✅     |
 | `GET /api/shippers`              | Listar transportistas                           | ✅     |
-| `GET /api/products`              | Listar productos                                | 🔜     |
+| `GET /api/products`              | Listar productos                                | ✅     |
 | `POST /api/orders`               | Crear nueva orden con detalle de producto       | 🔜     |
 
 ---
@@ -77,6 +77,9 @@ https://localhost:{puerto}/swagger
 ## Autor
 Desarrollado por: Johan Martínez
 Prueba técnica – Sales Date Prediction API – 2025
+
+##Tiempo de Desarrollo
+Debido a tiempos ajustados dentro de mi jornada laboral, el desarrollo de este proyecto se llevó a cabo en aproximadamente 5 horas.
 
 
 

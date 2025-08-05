@@ -22,6 +22,7 @@ builder.Services.AddScoped<IPredictionService, PredictionService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 builder.Services.AddScoped<IShipperService, ShipperService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 var app = builder.Build();
 
